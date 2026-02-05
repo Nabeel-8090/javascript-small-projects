@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7AB2B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.to-do-list {
+    min-width: 500px;
+    min-height: 70vh;
+    width: 500px;
+    border: 2px solid #09637E;
+    border-radius: 1rem;
+    background-color: #EBF4F6;
+    padding: 2rem;
+}
+
+h2 {
+    color: #09637E;
+}
+
+.input-box {
+    outline: none;
+    width: 85%;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #09637E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+}
+
+.output-box {
+    outline: none;
+    width: 80%;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #09637E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+}
+
+.add-btn {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #09637E;
+    color: white;
+    font-size: 14px;
+}
+
+.add-btn:hover {
+    background-color: #088395;
+}
+
+.dlt-btn {
+    height: 3rem;
+    width: 4.4rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #09637E;
+    color: white;
+    font-size: 14px;
+}
+
+.dlt-btn:hover {
+    background-color: #088395;
+}
+
